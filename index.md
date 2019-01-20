@@ -32,6 +32,6 @@ Lista raportów technicznych napisanych w części lub w całości przeze mnie.
 ### [PL] Konferencje
 
 * *Mój serwer jest chory!*, SECURE 2016 [[slajdy](docs/secure_2016.pdf)]
-* *Analiza przypadku: Grupa pocztowa*, SECURE 2015 [[slajdy](docs/secure_2015.pdf] \| [nagranie](https://www.youtube.com/watch?v=VRPzHcMoRms)]
+* *Analiza przypadku: Grupa pocztowa*, SECURE 2015 [[slajdy](docs/secure_2015.pdf) \| [nagranie](https://www.youtube.com/watch?v=VRPzHcMoRms)]
 * *Sektor małych i średnich złośliwych programów w Polsce*, SECURE 2014 [[slajdy](docs/secure_2014.pdf) \| [nagranie](https://www.youtube.com/watch?v=kI5JJ8UMp08)]
 * *Płatności NFC: fakty i mity*, SECURE 2013 [[slajdy](docs/secure_2013.pdf) \| [nagranie](https://www.youtube.com/watch?v=9h-8EA2LFR0)]
