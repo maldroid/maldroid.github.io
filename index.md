@@ -9,6 +9,8 @@ The list of publications in English written, either entirely or in part, by me.
 
 * *Android malware that won't make you fall asleep*, Hackito Ergo Sum 2015 [[slides](docs/hackito_2015.pdf) \| [video](https://www.youtube.com/watch?v=9h-8EA2LFR0)]
 
+---
+
 ### [PL] Raporty techniczne
 
 Lista raportów technicznych napisanych w części lub w całości przeze mnie.
