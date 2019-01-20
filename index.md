@@ -22,4 +22,5 @@ Lista raportów technicznych napisanych w części lub w całości przeze mnie.
 
 ### [PL] Konferencje
 
+* *Sektor małych i średnich złośliwych programów w Polsce* [[slajdy](docs/secure_2014.pdf) \| [nagranie](https://www.youtube.com/watch?v=kI5JJ8UMp08)]
 * *Płatności NFC: fakty i mity*, SECURE 2013 [[slajdy](docs/secure_2013.pdf) \| [nagranie](https://www.youtube.com/watch?v=9h-8EA2LFR0)]
