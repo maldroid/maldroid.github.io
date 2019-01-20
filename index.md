@@ -3,6 +3,7 @@
 The list of publications in English written, either entirely or in part, by me.
 
 * *PHA Family Highlights: Zen and its cousins* blog post on Google Security Blog [[link](https://security.googleblog.com/2019/01/pha-family-highlights-zen-and-its.html)]
+* *PowerZeus Incident Case Study* published by CERT.pl [[PDF](docs/powerzeus_en.pdf) \| [link](http://www.cert.pl/PDF/Report_PowerZeus_EN.pdf)]
 * *Case Study of Malicious Actors: Going Postal* published by CERT.pl [[PDF](docs/The_Postal_Group.pdf) \| [link](http://www.cert.pl/PDF/The_Postal_Group.pdf)]
 * *Analysis of Domain Silver, Inc. .pl Domains* published by CERT.pl [[PDF](docs/Report_Domain_Silver_EN_updated.pdf) \| [link](http://www.cert.pl/PDF/Report_Domain_Silver_EN_updated.pdf)]
 * *Takeover of Virut domains* published by CERT.pl [[PDF](docs/Report_Virut_EN.pdf) \| [link](http://www.cert.pl/PDF/Raport_Virut_PL.pdf)]
@@ -26,6 +27,7 @@ The list of publications in English written, either entirely or in part, by me.
 Lista raportów technicznych napisanych w części lub w całości przeze mnie.
 
 * *Studium przypadku: Grupa Pocztowa* opublikowane przez CERT.pl [[PDF](docs/Grupa_Pocztowa.pdf) \| [link](http://www.cert.pl/PDF/Grupa_Pocztowa.pdf)]
+* *Analiza przypadku: botnet PowerZeus* opublikowane przez CERT.pl [[PDF](docs/powerzeus_pl.pdf] \| [link](http://www.cert.pl/PDF/Raport_PowerZeus_PL.pdf)]
 * *Analiza domen rejestrowanych za pośrednictwem Domain Silver, Inc.* opublikowane przez CERT.pl [[PDF](docs/Raport_Domain_Silver_PL_updated.pdf) \| [link](http://www.cert.pl/PDF/Raport_Domain_Silver_PL_updated.pdf)]
 * *Przejęcie domen botnetu Virut* opublikowane przez CERT.pl [[PDF](docs/Raport_Virut_PL.pdf) \| [link](http://www.cert.pl/PDF/Report_Virut_EN.pdf)]
 
