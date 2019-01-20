@@ -2,6 +2,7 @@
 
 The list of publications in English written, either entirely or in part, by me.
 
+* *PHA Family Highlights: Zen and its cousins* blog post on Google Security Blog [[link](https://security.googleblog.com/2019/01/pha-family-highlights-zen-and-its.html)]
 * *Case Study of Malicious Actors: Going Postal* published by CERT.pl [[PDF](docs/The_Postal_Group.pdf) \| [link](http://www.cert.pl/PDF/The_Postal_Group.pdf)]
 * *Analysis of Domain Silver, Inc. .pl Domains* published by CERT.pl [[PDF](docs/Report_Domain_Silver_EN_updated.pdf) \| [link](http://www.cert.pl/PDF/Report_Domain_Silver_EN_updated.pdf)]
 * *Takeover of Virut domains* published by CERT.pl [[PDF](docs/Report_Virut_EN.pdf) \| [link](http://www.cert.pl/PDF/Raport_Virut_PL.pdf)]
@@ -12,6 +13,7 @@ The list of publications in English written, either entirely or in part, by me.
 * *(Mostly) Polish threat landscape: not only VBKlip*, Botconf 2015 [[slides](docs/botconf_2015.pdf) \| [video](Mostly Polish threat landscape: not only VBKlip)]
 * *Android malware that won't make you fall asleep*, Hackito Ergo Sum 2015 [[slides](docs/hackito_2015.pdf) \| [video](https://www.youtube.com/watch?v=9h-8EA2LFR0)]
 * *Middle Income Malware Actors in Poland: VBKlip and Beyond*, Botconf 2014 [[slides](docs/botconf_2014.pdf)]
+* *Somehow unusual Android malware sample* - lightning talk, Botconf 2014 [[slides](docs/botconf_2014_lightning.pdf)]
 * *Caught in the honeypot: (almost) a year in review*, Honeynet Project Workshop 2014 [[slides](docs/honeynet_workshop_214.pdf) \| [video](https://www.youtube.com/watch?v=2uTyvbud1V8)]
 
 ---
