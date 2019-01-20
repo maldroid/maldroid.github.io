@@ -1,8 +1,9 @@
 theme: jekyll-theme-leap-day
-title: Hello world! :)
+title: Hello world -- test! :)
 slogan: maldroid's resources
 font:
   enable: true
+  host: //fonts.googleapis.com
   global:
     external: true
     family: Roboto
