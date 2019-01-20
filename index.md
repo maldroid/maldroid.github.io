@@ -1,3 +1,3 @@
 ### [EN] Reports and publications
 
-I've just published my first GitHub Pages site!
+Virut report published by CERT.pl [PDF](docs/Report_Virut_En.pdf)
