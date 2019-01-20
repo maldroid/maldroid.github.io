@@ -10,6 +10,7 @@ The list of publications in English written, either entirely or in part, by me.
 ### [EN] Conferences
 
 * *Triada: the past, the present and the (hopefully not existing) future*, Virus Bulletin 2018 [[slides](https://www.virusbulletin.com/uploads/pdf/conference_slides/2018/Siewierski-VB2018-Triada.pdf) \| [video](https://www.youtube.com/watch?v=abgtZqRtvLI)]
+* *Thinking Outside of the (Sand)box*, Botconf 2017
 * *Hunting droids from the inside*, Botconf 2016 [[slides](https://source.android.com/security/reports/AndroidSecurity-Botconf-2016.pdf)]
 * *(Mostly) Polish threat landscape: not only VBKlip*, Botconf 2015 [[slides](docs/botconf_2015.pdf) \| [video](https://www.youtube.com/watch?v=Fw9DcpZTNeE)]
 * *Android malware that won't make you fall asleep*, Hackito Ergo Sum 2015 [[slides](docs/hackito_2015.pdf) \| [video](https://www.youtube.com/watch?v=9h-8EA2LFR0)]
