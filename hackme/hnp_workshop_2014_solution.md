@@ -131,3 +131,108 @@ and it can be used to decode byte array and obtain a flag. This can be achieved 
 with
 `_+&!q`
 in the debugger.
+
+## Flag: `RussianFlagItIs` (8 submissions)
+
+![Dialog box with a Cyrylic flag](img/hnp-hackme-russian.png "Dialog box with a Cyrylic flag")
+
+This flag was relatively easy to find, but people who did find it often did not know what to do with it. This flag was in the caption of the first dialog that was displayed when running CrackMe. It was written in Cyrillic and it needed to be transliterated to latin (or ASCII) alphabet. Few people, who apparently did not read the rules carefully, submitted the flag using original Cyrillic alphabet. Rules clearly stated that the flag had to start with
+`flag{`
+and that it had to be a string composed of ASCII printable characters excluding whitespaces. This transliteration could be performed using Google Translate or manually. Another problem was the similarity between the letters: ф and Ф (small and big “f” letter). Some even chose to ignore the case all together. However, this problems only concerned two participants.
+
+## Flag: `RC4EncryptionIsFun!!!1` (6 submissions)
+
+CrackMe created a system file
+`decode.py`
+in the
+`%TEMP%`
+directory. This file was a Python code snippet:
+
+```
+from Crypto.Cipher import ARC4
+from base64 import b64decode
+import sys
+obj = ARC4.new(sys.argv[1][:5])
+text = b64decode('LNLyv86npNDGrMxHrbpzHGoueiX3d3SPOmIZAg==')
+text = obj.decrypt(text)
+print text
+```
+
+This code decoded the base64 encoded string (line 5) and then tried to decrypt it using the command line parameter as a password. Only first 5 characters of the parameter where taken into account. The simpliest solution was to brute force the password. Iteration over all the printable character strings of length 5 took about 10 hours using the Python script provided below. By adding parallelism or rewriting the brute force to C, we could brute force this in 2-3 hours.
+
+```
+from Crypto.Cipher import ARC4
+from base64 import b64decode
+import sys
+import itertools, string
+org = b64decode('LNLyv86npNDGrMxHrbpzHGoueiX3d3SPOmIZAg==')
+for i in itertools.product(string.printable, repeat=5):
+key = ''.join(i)
+obj = ARC4.new(key)
+text = obj.decrypt(org)
+if text.startswith('flag{'):
+print key, text
+```
+
+Correct password and the only output of the above script was
+`Oi01_`.
+
+## Flag: `JPEGalsoHasAFlag` (5 submissions)
+
+The UPX-unpacked file contained a
+`xz`
+archive in one of its resources. This resource could be extracted using e.g. ResEdit tool. This archive contained only one file –
+`picture.png`
+. This file contained a flag, as presented on the picture below.
+
+![PNG file with a flag](img/hnp-hackme-picture.png "PNG file with a flag")
+
+## Flag: `PNGdoesNotHaveExif,ButStillIsFun` (4 submissions)
+
+The mentioned PNG file also contained a special chunk. Chunk is a part of the PNG format that allows you to store some additional information. Some of them are important, like the ones containing picture width and height, while some of them can contain unimportant metadata. The easiest way to retrieve this flag was to use the
+`strings`
+tool on the PNG. This resulted in the outcome presented below.
+
+```
+$ strings -n7 picture.png
+tEXtComment
+Created with GIMPW
+-tEXtFlag4U
+flag{PNGdoesNotHaveExif,ButStillIsFun}2+
+&gt;}!fYYY
+```
+
+## Flag: `DOSisPower` (2 submissions)
+
+Last of the flags was hidden as a DOS program. PE files, in order to achieve backwards compatibility, can start with a DOS code. Usually it is just a stub that prints
+`This program cannot be run in DOS mode.`
+
+However, this time it was used to conceal one of the passwords. The DOS stub from our CrackMe is presented below. It is worth noting that this is a 16-bit code.
+
+```
+00 0e push cs
+01 1f pop ds
+02 be0000 mov si, 0x0
+05 bb2200 mov bx, 0x22
+08 b86600 mov ax, 0x66
+0b 3200 xor al, [bx+si]
+0d 8800 mov [bx+si], al
+0f 46 inc si
+10 81fe1000 cmp si, 0x10
+14 75f5 jnz 0xb
+16 ba2200 mov dx, 0x22
+19 b409 mov ah, 0x9
+1b cd21 int 0x21
+1d b8004c mov ax, 0x4c00
+20 cd21 int 0x21
+```
+
+This code processes the byte sequence that was starting at the
+`0x22`
+(offset `0x05`) and then decodes it to a flag. This was performed using a very simple encryption algorithm. First character was xored with
+`0x66`
+(offset `0x08`, `0x0b`) and every consecutive byte was xored with the previously decrypted byte. This way we obtained a flag that was 16 bytes long (offset `0x10`). Then the flag is displayed (offsety `0x16`, `0x19`, `0x1b`) end the application exits with a return value 0 (offsety `0x1d`, `0x20`).
+
+All that have to be done in order to get this flag was to run the CrackMe in e.g. DOSBox. This is presented in the screenshot below.
+
+![DOSBox execution of the crack me file](img/hnp-hackme-dos.png "DOSBox execution of the crack me file")
