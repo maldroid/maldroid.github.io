@@ -2,7 +2,7 @@
 
 The list of publications in English written, either entirely or in part, by me.
 
-* *PHA Family Highlights: Zen and its cousins* blog post on Google Security Blog [[link](https://security.googleblog.com/2019/01/pha-family-highlights-zen-and-its.html)]
+* *PHA Family Highlights: Zen and its cousins* blog post on Google Security Blog [[link](https://security.googleblog.com/2019/01/pha-family-highlights-zen-and-its.html) \| [webarchive](https://web.archive.org/web/20190129153017/https://security.googleblog.com/2019/01/pha-family-highlights-zen-and-its.html)]
 * *PowerZeus Incident Case Study* published by CERT.pl [[PDF](docs/powerzeus_en.pdf) \| [link](http://www.cert.pl/PDF/Report_PowerZeus_EN.pdf)]
 * *Case Study of Malicious Actors: Going Postal* published by CERT.pl [[PDF](docs/The_Postal_Group.pdf) \| [link](http://www.cert.pl/PDF/The_Postal_Group.pdf)]
 * *Analysis of Domain Silver, Inc. .pl Domains* published by CERT.pl [[PDF](docs/Report_Domain_Silver_EN_updated.pdf) \| [link](http://www.cert.pl/PDF/Report_Domain_Silver_EN_updated.pdf)]
@@ -23,10 +23,13 @@ The list of publications in English written, either entirely or in part, by me.
 
 ---
 
-### [PL] Raporty techniczne
+### [PL] Raporty techniczne i publikacje
 
-Lista raportów technicznych napisanych w części lub w całości przeze mnie.
+Lista raportów technicznych i artykułów napisanych w części lub w całości przeze mnie.
 
+* *Analiza złośliwego oprogramowania, które blokuje dostęp do naszego serwisu* [[link](https://zaufanatrzeciastrona.pl/post/analiza-zlosliwego-oprogramowania-ktore-blokuje-dostep-do-naszego-serwisu/) \| [webarchive](https://web.archive.org/web/20170707150236/https://zaufanatrzeciastrona.pl/post/analiza-zlosliwego-oprogramowania-ktore-blokuje-dostep-do-naszego-serwisu/)]
+* *Jak pewien komercyjny serwis aukcyjny przykłady OWASP Top 10 wdrożył* [[link](https://zaufanatrzeciastrona.pl/post/jak-pewien-komercyjny-serwis-aukcyjny-przyklady-owasp-top-10-wdrozyl/) \| [webarchive](https://web.archive.org/web/20180102160012/https://zaufanatrzeciastrona.pl/post/jak-pewien-komercyjny-serwis-aukcyjny-przyklady-owasp-top-10-wdrozyl/)]
+* *Krótki kurs analizy malware na przykładzie polskiego ataku sprzed paru dni* [[link](https://zaufanatrzeciastrona.pl/post/krotki-kurs-analizy-malware-na-przykladzie-polskiego-ataku-sprzed-paru-dni/) \| [webarchive](https://web.archive.org/web/20170707154553/https://zaufanatrzeciastrona.pl/post/krotki-kurs-analizy-malware-na-przykladzie-polskiego-ataku-sprzed-paru-dni/)]
 * *Studium przypadku: Grupa Pocztowa* opublikowane przez CERT.pl [[PDF](docs/Grupa_Pocztowa.pdf) \| [link](http://www.cert.pl/PDF/Grupa_Pocztowa.pdf)]
 * *Analiza przypadku: botnet PowerZeus* opublikowane przez CERT.pl [[PDF](docs/powerzeus_pl.pdf) \| [link](http://www.cert.pl/PDF/Raport_PowerZeus_PL.pdf)]
 * *Analiza domen rejestrowanych za pośrednictwem Domain Silver, Inc.* opublikowane przez CERT.pl [[PDF](docs/Raport_Domain_Silver_PL_updated.pdf) \| [link](http://www.cert.pl/PDF/Raport_Domain_Silver_PL_updated.pdf)]
