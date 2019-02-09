@@ -30,6 +30,12 @@ The list of publications in English written, either entirely or in part, by me.
 
 ---
 
+### HackMe
+
+Lista zadań HackMe stworzonych przeze mnie.
+
+* *ECSM 2015 - plik PCAP*, published on cert.pl [[zadanie](hackme/ecsm_2015.md) \| [rozwiązanie](hackme/ecsm_2015_solution.md)]
+
 ### [PL] Raporty techniczne i publikacje
 
 Lista raportów technicznych i artykułów napisanych w części lub w całości przeze mnie.
