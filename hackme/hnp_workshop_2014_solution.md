@@ -92,4 +92,42 @@ had a label with CRC32 equal to
 
 ![Dialog box with a flag](img/hnp-hackme-label.png "Dialog box with a flag")
 
+## Flag: `YouKnowHowToDebugCode!` (9 submissions)
 
+In order to find this flag CrackMe had to be debugged using e.g. OllyDbg or IDA Pro. The code check the debugger presence using the
+`IsDebuggerPresent`
+function. If it detected the debugger a
+`You shall not pass!`
+dialog box appeared. However, code continued to the function which used
+`OutputDebugString`
+to display a string. This string was obtained by xoring
+`changeme`
+with the previously “encrypted” byte array:
+
+```
+0x39,0x47,0x47,0x46,0xa,0x6,0x44,0x53,0x6a,0x1f,0x30,0x5c,0x6e,0x4e,0x6,0xb,0x44,0x62,0x44,0x13,0x2a,0x4c,0x65,0x4e,0x15,0x3a,0xa,0x5b
+```
+
+Of course
+`changeme`
+had to be change to the correct password. Assuming that we know that the first 5 characters of the string are
+`flag{`
+, and only first 5 bytes from
+`changeme`
+were used as a key, we could easily calculate correct password:
+
+```
+0x39 xor 0x66 (‘f’) = 0x5f (‘_’)
+0x47 xor 0x6c (‘l’) = 0x2b (‘+’)
+0x47 xor 0x61 (‘a’) = 0x26 (‘&’)
+0x46 xor 0x67 (‘g’) = 0x21 (‘!’)
+0x0a xor 0x7b (‘{‘) = 0x71 (‘q’)
+```
+
+So the password is
+`_+&!q`
+and it can be used to decode byte array and obtain a flag. This can be achieved manually or by simply substituting
+`changeme`
+with
+`_+&!q`
+in the debugger.
