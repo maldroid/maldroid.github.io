@@ -51,7 +51,7 @@ Z hasła jest tworzony 32-bajtowy (256 bitów) klucz AES, którym to algorytmem 
 `VbrFv`
 ) otrzymujemy zaszyfrowany plik PDF. Hasło do tego pliku znajduje się w początkowym pliku PCAP, w rekordzie TXT odpowiedzi DNS, jak pokazano poniżej.
 
-![Rekord TXT odpowiedzi DNS](img/ecsm_2015_txt.img "Rekord TXT odpowiedzi DNS")
+![Rekord TXT odpowiedzi DNS](img/ecsm_2015_txt.png "Rekord TXT odpowiedzi DNS")
 
 Po wpisaniu hasła widzimy dokument taki jak na obrazku poniżej. Można spróbować uzyskać flagę zaznaczając zaciemniony prostokąt i przekształcając ciąg znaków zakodowany base64 na postać jawną, ale wtedy otrzymamy tylko
 `This is not the flag that you are looking for`
