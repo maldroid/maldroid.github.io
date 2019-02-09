@@ -2,8 +2,8 @@
 
 The list of HackMe challenges created by me.
 
+* *HoneyNet Workshop 2014 - EXE file*, published on cert.pl [[link](hackme/hn_workshop_2014.md) \| [solution](hackme/hn_workshop_2014_solution.md)]
 * *ECSM 2014 - PCAP file*, published on cert.pl [[link](hackme/ecsm_2014.md) \| [solution](hackme/ecsm_2014_solution.md)]
-
 
 ### [EN] Reports and publications
 
