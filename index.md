@@ -9,6 +9,7 @@ The list of HackMe challenges created by me.
 
 The list of publications in English written, either entirely or in part, by me.
 
+* *PHA Family Highlights: Triada* blog post on Google Security Blog [[link](https://security.googleblog.com/2019/06/pha-family-highlights-triada.html) \| [webarchive](https://web.archive.org/web/20190611090218/https://security.googleblog.com/2019/06/pha-family-highlights-triada.html)]
 * *PHA Family Highlights: Zen and its cousins* blog post on Google Security Blog [[link](https://security.googleblog.com/2019/01/pha-family-highlights-zen-and-its.html) \| [webarchive](https://web.archive.org/web/20190129153017/https://security.googleblog.com/2019/01/pha-family-highlights-zen-and-its.html)]
 * *PowerZeus Incident Case Study* published by CERT.pl [[PDF](docs/powerzeus_en.pdf) \| [link](http://www.cert.pl/PDF/Report_PowerZeus_EN.pdf)]
 * *Case Study of Malicious Actors: Going Postal* published by CERT.pl [[PDF](docs/The_Postal_Group.pdf) \| [link](http://www.cert.pl/PDF/The_Postal_Group.pdf)]
