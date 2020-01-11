@@ -19,6 +19,7 @@ The list of publications in English written, either entirely or in part, by me.
 
 ### [EN] Conferences
 
+* *Zen: A Complex Campaign of Harmful Android Apps*, Botconf 2019
 * *Triada: the past, the present and the (hopefully not existing) future*, Virus Bulletin 2018 [[slides](https://www.virusbulletin.com/uploads/pdf/conference_slides/2018/Siewierski-VB2018-Triada.pdf) \| [video](https://www.youtube.com/watch?v=abgtZqRtvLI)]
 * *Android Anti-RE Choosing a Different Path*, Kaspersky SAS 2018 [[blog post](https://duo.com/decipher/how-attackers-try-to-outmaneuver-googles-play-security-efforts)]
 * *Thinking Outside of the (Sand)box*, Botconf 2017
@@ -52,6 +53,7 @@ Lista raportów technicznych i artykułów napisanych w części lub w całości
 
 ### [PL] Konferencje
 
+* *Challenges in the Android supply chain analysis*, What The Hack 2019
 * *Mój serwer jest chory!*, SECURE 2016 [[slajdy](docs/secure_2016.pdf)]
 * *Analiza przypadku: Grupa pocztowa*, SECURE 2015 [[slajdy](docs/secure_2015.pdf) \| [nagranie](https://www.youtube.com/watch?v=VRPzHcMoRms)]
 * *Sektor małych i średnich złośliwych programów w Polsce*, SECURE 2014 [[slajdy](docs/secure_2014.pdf) \| [nagranie](https://www.youtube.com/watch?v=kI5JJ8UMp08)]
