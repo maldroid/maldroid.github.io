@@ -12,6 +12,10 @@
 * *Somehow unusual Android malware sample* - lightning talk, Botconf 2014 [[slides](docs/botconf_2014_lightning.pdf)]
 * *Caught in the honeypot: (almost) a year in review*, Honeynet Project Workshop 2014 [[slides](docs/honeynet_workshop_214.pdf) \| [video](https://www.youtube.com/watch?v=2uTyvbud1V8)]
 
+### [EN] Workshops
+
+* *Basics of hardware hacking* - check it out here: https://maldroid.github.io/hardware-hacking
+
 ### [EN] Reports and publications
 
 The list of publications in English written, either entirely or in part, by me.
