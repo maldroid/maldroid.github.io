@@ -14,7 +14,7 @@
 
 ### [EN] Workshops
 
-* *Basics of hardware hacking* - check it out here: https://maldroid.github.io/hardware-hacking
+* *Basics of hardware hacking* - check it out here: [maldroid.github.io/hardware-hacking](https://maldroid.github.io/hardware-hacking)
 
 ### [EN] Reports and publications
 
