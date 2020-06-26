@@ -39,6 +39,7 @@ The list of HackMe challenges created by me.
 
 ### [PL] Konferencje
 
+* *Zen – złożony system złośliwych aplikacji na platformę Android* [[slajdy](docs/secure_eb_2020.pdf) \| [nagranie](https://www.youtube.com/watch?v=WmRiRK1U7TU)]
 * *Challenges in the Android supply chain analysis*, What The Hack 2019
 * *Mój serwer jest chory!*, SECURE 2016 [[slajdy](docs/secure_2016.pdf)]
 * *Analiza przypadku: Grupa pocztowa*, SECURE 2015 [[slajdy](docs/secure_2015.pdf) \| [nagranie](https://www.youtube.com/watch?v=VRPzHcMoRms)]
