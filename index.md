@@ -1,6 +1,6 @@
 ### [EN] Conferences
 
-* *The fall of Domino*, Botconf 2020, [[slides](docs/botconf_2020.pdf) \| [video](https://www.youtube.com/watch?v=0s7F2SchYlI)]
+* *The fall of Domino*, Botconf 2020 [[slides](docs/botconf_2020.pdf) \| [video](https://www.youtube.com/watch?v=0s7F2SchYlI)]
 * *The fall of Domino – a preinstalled hostile downloader*, Virus Bulletin 2020 (#vblocalhost) [[slides](docs/vb_2020_slides.pdf) \| [video](https://www.youtube.com/watch?v=LeKi0KfzOow&t=5661s) \| [paper](docs/vb_2020_paper.pdf)]
 * *Zen: A Complex Campaign of Harmful Android Apps*, Hack in The Box 2020 (#HITBLockdown002) [[slides](docs/hitb_2020.pdf) \| [video](https://www.youtube.com/watch?v=-G4A3wCOBho)]
 * *Challenges in Android Supply Chain Analysis*, RSA Conference 2020 [[slides](docs/rsa_2020.pdf) \| [video](https://youtu.be/9IozYfGWoRE)]
