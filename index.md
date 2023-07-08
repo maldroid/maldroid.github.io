@@ -1,6 +1,6 @@
 ### [EN] Conferences
 
-* *Dismantling spyware disinformation campaigns: lessons from the chaos*, RightsCon 2023, [write-up](https://medium.com/@maldr0id/dismantling-spyware-disinformation-campaigns-2f4418500ef7)
+* *Dismantling spyware disinformation campaigns: lessons from the chaos*, RightsCon 2023 [[write-up](https://medium.com/@maldr0id/dismantling-spyware-disinformation-campaigns-2f4418500ef7)]
 * *You OTA know: combating malicious Android system updaters*, Botconf 2023 [[slides](docs/botconf_2023.pdf) \| [video](https://www.youtube.com/watch?v=SAMREDquWQs)]
 * *You OTA know: combating malicious Android system updaters*, Virus Bulletin 2022 [[slides](docs/vb_2022.pdf) \| [video](https://www.youtube.com/watch?v=xjXVUJd4gMs)]
 * *The fall of Domino*, Botconf 2020 [[slides](docs/botconf_2020.pdf) \| [video](https://www.youtube.com/watch?v=0s7F2SchYlI)]
